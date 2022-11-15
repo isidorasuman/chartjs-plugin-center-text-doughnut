@@ -1,0 +1,42 @@
+{
+  "name": "chartjs-plugin-center-text-doughnut",
+  "homepage": "https://github.com/isidorasuman/chartjs-plugin-center-text-doughnut",
+  "description": "Chart.js plugin to display centered text within a doughnut chart",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/chartjs-plugin-center-text-doughnut.js",
+  "module": "dist/chartjs-plugin-center-text-doughnut.esm.js",
+  "types": "types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isidorasuman/chartjs-plugin-center-text-doughnut.git"
+  },
+  "keywords": [
+    "chart.js",
+    "plugin",
+    "doughnut",
+    "center",
+    "text-center",
+    "chart"
+  ],
+  "files": [
+    "dist/*.js",
+    "types/*.d.ts"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "build:dev": "rollup -c --watch"
+  },
+  "devDependencies": {
+    "chart.js": "^3.8.0",
+    "rollup": "^2.77.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-istanbul": "^3.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "chart.js": "^3.0.0"
+  }
+}
