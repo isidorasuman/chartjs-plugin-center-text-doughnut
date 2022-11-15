@@ -5,8 +5,8 @@ export default {
       // Get context
       const ctx = chart.ctx;
 
-      // Get `text` from options
-      const text = options?.text;
+      // Get `text` from options (defaults to an empty string)
+      const text = options?.text || '';
 
       // Get `color` from options
       const color = options?.color;

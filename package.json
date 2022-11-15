@@ -2,7 +2,7 @@
   "name": "chartjs-plugin-center-text-doughnut",
   "homepage": "https://github.com/isidorasuman/chartjs-plugin-center-text-doughnut",
   "description": "Chart.js plugin to display centered text within a doughnut chart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/chartjs-plugin-center-text-doughnut.js",
   "module": "dist/chartjs-plugin-center-text-doughnut.esm.js",
